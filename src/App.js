@@ -8,6 +8,10 @@ import ArticleLinks from './ArticleLinks'
 import Sponsor from './Sponsor'
 import Ads from './Ads'
 import Footer from './Footer'
+import Ad1 from './Ad1'
+import Ad2 from './Ad2'
+import Ad3 from './Ad3'
+import Ad4 from './Ad4'
 
 class App extends Component {
   render() {
@@ -21,7 +25,12 @@ class App extends Component {
             <ArticleLinks />
           </div>
           <Sponsor />
-          <Ads />
+          <Ads>
+            <Ad1 />
+            <Ad2 />
+            <Ad3 />
+            <Ad4 />
+          </Ads>  
         </main>
         <Footer />
       </div>

@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 class ArticleLinks extends Component {
     render() {
         return (
+            <h6>
             <div className="article-links">
                 <a className="article-link" href="#">
                     <i className="fa fa-comments-o"></i>
@@ -13,6 +14,7 @@ class ArticleLinks extends Component {
                     <span className="article-link-text">Share Post</span>
                 </a>
             </div>
+            </h6>
         )
     }
 }

@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 
 class Header extends Component {
     render() {
-        return (
+        return (       
+        <h6>
             <div className="expanded row header">
                 <div className="clearfix">
                     <div className="float-left logo">
@@ -18,7 +19,9 @@ class Header extends Component {
                     <h1>The Dwarf Underground</h1>
                     <h3>Delving deep for the <span className="gold">shiniest</span> news</h3>
                 </div>
-            </div>
+            </div>   
+          </h6>
+
         )
     }
 }
