@@ -12,6 +12,7 @@ import Ad1 from './Ad1'
 import Ad2 from './Ad2'
 import Ad3 from './Ad3'
 import Ad4 from './Ad4'
+import Comments from './Comments'
 
 class App extends Component {
   render() {
@@ -22,7 +23,9 @@ class App extends Component {
           <div className="large-8 medium-12 columns article">
             <ArticleHeader />
             <ArticleBody />
-            <ArticleLinks />
+            <ArticleLinks >
+              <Comments />
+              </ArticleLinks>
           </div>
           <Sponsor />
           <Ads>
